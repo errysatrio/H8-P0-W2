@@ -1,0 +1,30 @@
+
+
+
+
+2. 
+STORE "years" to any number
+
+IF "years" divided by 4 >0
+  DO "bukan kabisat"
+ELSE
+IF "years" divide by 100 = 0
+  DO "kabisat"
+ELSE
+IF "years" divided by 400 = 0
+  DO "kabisat"
+ELSE
+DO "BUKAN kabisat"
+
+3.
+STORE "count" to 0
+
+WHILE "count" <20
+  ADD "count" by 1
+
+DISPLAY "turn on washing machine"
+
+4.
+STORE "count" to 1
+
+
