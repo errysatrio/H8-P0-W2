@@ -8,11 +8,6 @@ function xo(str) {
     }   
   }
   
-var temp = "xoxoxoxo";
-var count = (temp.match(/x/g) || []).length;
-console.log(count);
-
- 
   console.log(xo('xoxoxo'));
   console.log(xo('oxooxo')); 
   console.log(xo('oxo')); 
