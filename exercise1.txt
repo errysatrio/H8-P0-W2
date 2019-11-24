@@ -12,13 +12,13 @@ STORE "years" to any number
 
 IF "years" divided by 4 = 0 
   IF divide by 100 != 0
-    DO "kabisat"
+    DISPLAY "kabisat"
   ELSE IF "years" divided by = 0 AND divided by 400 = 0
-    DO "kabisat"
+    DISPLAY "kabisat"
   ELSE 
-    DO "bukan kabisat"
+    DISPLAY "bukan kabisat"
 ELSE 
-  DO "bukan kabisat"
+  DISPLAY "bukan kabisat"
 
 
 3.
