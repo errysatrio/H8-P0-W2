@@ -34,8 +34,8 @@ DO "turn on washing machine"
 STORE "count" to 0
 
 WHILE "count" < 40
-  ADD "count" by 1
     IF "kuku" = "panjang"
       DO "hukum"
     ELSE
       DO "puji"
+ADD "count" by 1
