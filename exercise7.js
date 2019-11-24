@@ -10,14 +10,14 @@ var rows2 = 5
 let i = 0
 var hasil =''
 
-    for (let j = 0; j < rows2; j++) {
-        console.log(hasil)
-       while (i<rows2) {
-          i++
-          hasil+='*'
+for (let j = 0; j < rows2; j++) {
+    while (i<rows2) {
+        i++
+        hasil+='*'
     }
+    console.log(hasil)
 }
-console.log(hasil)
+
 
 
 console.log('nomor 3')
