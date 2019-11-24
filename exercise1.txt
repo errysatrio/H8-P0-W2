@@ -1,20 +1,25 @@
+1. 
+STORE "resultan gaya" = "Masa" * "Percepatan"
 
+STORE "Masa" = 600
+STORE "Percepatan" = 2 m/s2
 
+DISPLAY "resultan gaya" 
 
 
 2. 
 STORE "years" to any number
 
-IF "years" divided by 4 >0
+IF "years" divided by 4 = 0 
+  IF divide by 100 != 0
+    DO "kabisat"
+  IF "years" divided by = 0 AND divided by 400 = 0
+    DO "kabisat"
+  ELSE 
+    DO "bukan kabisat"
+ELSE 
   DO "bukan kabisat"
-ELSE
-IF "years" divide by 100 = 0
-  DO "kabisat"
-ELSE
-IF "years" divided by 400 = 0
-  DO "kabisat"
-ELSE
-DO "BUKAN kabisat"
+
 
 3.
 STORE "count" to 0
@@ -22,9 +27,15 @@ STORE "count" to 0
 WHILE "count" <20
   ADD "count" by 1
 
-DISPLAY "turn on washing machine"
+DO "turn on washing machine"
+
 
 4.
-STORE "count" to 1
+STORE "count" to 0
 
-
+WHILE "count" < 40
+  ADD "count" by 1
+    IF "kuku" = "panjang"
+      DO "hukum"
+    ELSE
+      DO "puji"
